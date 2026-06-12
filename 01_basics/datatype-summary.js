@@ -1,6 +1,7 @@
 //Primitive
 
 // 7 types : String, Number, Bollean, null, undefined, BigInt
+//call by value hote h
 
 const score = 100
 const scoreValue = 100.3

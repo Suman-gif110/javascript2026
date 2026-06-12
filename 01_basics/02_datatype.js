@@ -2,11 +2,11 @@
 
 // alert (3 + 3) // we are using nodejs, not browser
 
-console.log(3 + 3)// code readabiity should be high
+console.log(3 + 3)// code readabiity that should be high
 
 console.log("suman")
 
-let name = "suman"
+let name = "suman" //this is a string datatype
 let age = 19
 let isLoggedIn = false
 let state;

@@ -8,11 +8,13 @@ accountCity = "Jaipur"
 accountEmail = "scad@n.com" 
 accountPassword = "14556"
 accountCity = "Bengaluru"
-let accountstae;
+let accountstate;
 
 /*
 Prefer not to use var because of issue in block scope and functional acope
 */
 
 console.log(accountId);
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountstate])
+
+//const = const can't change

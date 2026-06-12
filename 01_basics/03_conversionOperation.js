@@ -8,7 +8,7 @@ let valueInNumber = Number(score)
 //console.log(valueInNumber);
 
 //"33" => 33
-// "33rgh" = NaN
+// "33rgh" = NaN not a no
 // true => 1;
 // false => 0
 
