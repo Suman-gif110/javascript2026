@@ -68,6 +68,34 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty(`isLoggedIn`));
 
+//+++++++++++++++++++++Destructuring++++++++++
+const course = {
+    coursename: "js in hindi",
+    price: "8990",
+    courseInstructor: "suman"
+    
+}
+//course.courseInstructor
+
+const {courseInstructor : instrutor} = course
+console.log(courseInstructor);
+
+console.log(instrutor);
+// const navnar = ({company}) => {
+//     //double bracket is called destructuring
+// }
+//navbar(company = "suman")
+
+// {
+//     "name": "suman",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+[
+    {},
+    {},
+    {}
+]
 
 
 
